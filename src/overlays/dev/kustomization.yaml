@@ -4,6 +4,6 @@ resources:
 - "../../base" # or wherever your base manifests are located
 images:
 - name: ghcr.io/kmssankar/expressappdbm
-  newTag: be915e84f26696041c3a05fe01c10cdff38ead65
+  newTag: 7bb1f3897c7e36f6058e7b8801621587ff3a3c4e
 - name: ghcr.io/kmssankar/flyway-migrations
   newTag: be915e84f26696041c3a05fe01c10cdff38ead65
