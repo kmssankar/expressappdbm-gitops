@@ -8,4 +8,4 @@ images:
 - name: ghcr.io/kmssankar/expressappdbm
   newTag: 75b9f4f312ade06adfd695e43424dae3b19a435a
 - name: ghcr.io/kmssankar/flyway-migrations
-  newTag: cac29cc5bd8cfc8354fb10ad0b50da2153920b08
+  newTag: 75b9f4f312ade06adfd695e43424dae3b19a435a
