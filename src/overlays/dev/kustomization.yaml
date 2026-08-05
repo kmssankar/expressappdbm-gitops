@@ -4,6 +4,6 @@ resources:
 - "../src/k8s"
 images:
 - name: ghcr.io/kmssankar/expressappdbm
-  newTag: latest
+  newTag: d731a715d6693de49c704cf956c58e3f7490bad4
 - name: ghcr.io/kmssankar/flyway-migrations
-  newTag: latest
+  newTag: d731a715d6693de49c704cf956c58e3f7490bad4
