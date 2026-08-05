@@ -6,6 +6,6 @@ resources:
 # Kargo will modify the newTag fields in this block
 images:
 - name: ghcr.io/kmssankar/expressappdbm
-  newTag: cac29cc5bd8cfc8354fb10ad0b50da2153920b08
+  newTag: 75b9f4f312ade06adfd695e43424dae3b19a435a
 - name: ghcr.io/kmssankar/flyway-migrations
-  newTag: d731a715d6693de49c704cf956c58e3f7490bad4
+  newTag: cac29cc5bd8cfc8354fb10ad0b50da2153920b08
