@@ -1,13 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 # Reference the base k8s folder from your app source repository
 resources:
-  - github.com/kmssankar/expressappdbm/k8s?ref=main # or a specific tag/branch
-
+- github.com/kmssankar/expressappdbm/k8s?ref=main # or a specific tag/branch
 # Kargo will modify the newTag fields in this block
 images:
-  - name: ghcr.io/kmssankar/expressappdbm
-    newTag: latest
-  - name: ghcr.io/kmssankar/flyway-migrations
-    newTag: latest
+- name: ghcr.io/kmssankar/expressappdbm
+  newTag: cac29cc5bd8cfc8354fb10ad0b50da2153920b08
+- name: ghcr.io/kmssankar/flyway-migrations
+  newTag: d731a715d6693de49c704cf956c58e3f7490bad4
